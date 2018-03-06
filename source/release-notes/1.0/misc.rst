@@ -35,3 +35,8 @@ Javascript libraries
 Here is the list of removed obsolete javascript libraries, code is available in git history :
 
 * jstree
+
+ICloneable<T>
+=============
+
+``Object.clone`` use is discouraged. This interface, barely used, is removed.
