@@ -28,3 +28,10 @@ igloo-component-commons is split in several package.
 
 .. literalinclude:: scripts/commons-replace.sh
   :language: bash
+
+Javascript libraries
+====================
+
+Here is the list of removed obsolete javascript libraries, code is available in git history :
+
+* jstree
