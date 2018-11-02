@@ -46,13 +46,13 @@ generate a new folder where you are containing your new project.
 .. code-block:: bash
    :caption: Using the snapshot repository
 
-   mvn archetype:generate -DarchetypeCatalog=https://nexus.tools.kobalt-si.fr/repository/igloo-snapshots/ -DartifactId=your-artifact-id -DgroupId=your.group.id -Dversion=0.1-SNAPSHOT -Dpackage=com.your.package -DarchetypeApplicationNamePrefix="YourApplication" -DarchetypeSpringAnnotationValuePrefix="yourApplication" -DarchetypeFullApplicationName="Customer - Your application" -DarchetypeDatabasePrefix=c_database_prefix -DarchetypeDataDirectory=your-data-directory
+   mvn archetype:generate -DarchetypeCatalog=https://nexus.tools.kobalt.fr/repository/igloo-snapshots/ -DartifactId=your-artifact-id -DgroupId=your.group.id -Dversion=0.1-SNAPSHOT -Dpackage=com.your.package -DarchetypeApplicationNamePrefix="YourApplication" -DarchetypeSpringAnnotationValuePrefix="yourApplication" -DarchetypeFullApplicationName="Customer - Your application" -DarchetypeDatabasePrefix=c_database_prefix -DarchetypeDataDirectory=your-data-directory
 
 
 .. code-block:: bash
    :caption: Using the release repository
 
-   mvn archetype:generate -DarchetypeCatalog=https://nexus.tools.kobalt-si.fr/repository/igloo-releases/ -DartifactId=your-artifact-id -DgroupId=your.group.id -Dversion=0.1-SNAPSHOT -Dpackage=com.your.package -DarchetypeApplicationNamePrefix="YourApplication" -DarchetypeSpringAnnotationValuePrefix="yourApplication" -DarchetypeFullApplicationName="Customer - Your application" -DarchetypeDatabasePrefix=c_database_prefix -DarchetypeDataDirectory=your-data-directory
+   mvn archetype:generate -DarchetypeCatalog=https://nexus.tools.kobalt.fr/repository/igloo-releases/ -DartifactId=your-artifact-id -DgroupId=your.group.id -Dversion=0.1-SNAPSHOT -Dpackage=com.your.package -DarchetypeApplicationNamePrefix="YourApplication" -DarchetypeSpringAnnotationValuePrefix="yourApplication" -DarchetypeFullApplicationName="Customer - Your application" -DarchetypeDatabasePrefix=c_database_prefix -DarchetypeDataDirectory=your-data-directory
 
 
 Push the new project
